@@ -19,7 +19,9 @@ divendamount <- function(stock) {
   dividend_amount <- (as.numeric(numberofstocks(stock_symb)) * as.numeric(last_div))
   return(dividend_amount)
   })
-}
+} 
+
+testing <- 40
 
 divendfreq <- function(stock) {
   suppressWarnings({
